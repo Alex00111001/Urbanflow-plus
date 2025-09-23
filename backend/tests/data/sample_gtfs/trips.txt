@@ -1,0 +1,5 @@
+route_id,service_id,trip_id,trip_headsign,direction_id
+B1,WEEKDAY,B1_T1,Trabajo,0
+M1,WEEKDAY,M1_T1,Trabajo,0
+W1,WEEKDAY,W1_T1,Metro Azul,0
+T1,WEEKDAY,T1_T1,Trabajo,0

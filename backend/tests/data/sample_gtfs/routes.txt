@@ -1,0 +1,5 @@
+route_id,route_short_name,route_long_name,route_type
+B1,B21,Casa-Trabajo Bus,3
+M1,M1,Casa-Trabajo Metro,1
+W1,W1,Conector Casa-Metro Azul,702
+T1,T1,Tren Leste,2

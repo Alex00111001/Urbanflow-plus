@@ -1,0 +1,6 @@
+stop_id,stop_name,stop_lat,stop_lon
+S1,Casa,-23.5590,-46.6580
+S2,Metro Azul,-23.5570,-46.6620
+S3,Centro,-23.5520,-46.6350
+S4,Trabajo,-23.5480,-46.6200
+S5,Parada 21,-23.5610,-46.6700
