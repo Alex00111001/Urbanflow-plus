@@ -1,0 +1,10 @@
+# Python virtual environments
+.venv/
+backend/.venv/
+__pycache__/
+*.pyc
+*.egg-info/
+
+# Editor files
+.idea/
+.vscode/
