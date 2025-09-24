@@ -17,6 +17,7 @@ UrbanFlow+ es una plataforma de movilidad urbana centrada en ofrecer rutas multi
 - [`docs/ux_ui.md`](docs/ux_ui.md): lineamientos de UX/UI, accesibilidad e internacionalización.
 - [`docs/ai_routing.md`](docs/ai_routing.md): diseño del motor híbrido de rutas e IA de optimización.
 - [`docs/delivery_plan.md`](docs/delivery_plan.md): plan de entrega con OKRs, backlog priorizado y responsables por fase.
+- [`docs/phase1_foundations.md`](docs/phase1_foundations.md): desglose de sprints y checklist para ejecutar la fase 1 (fundaciones backend & datos).
 - [`backend/`](backend/): API FastAPI con buscador natural, rutas multimodales, llegadas en tiempo real simuladas y servicios premium.
 
 ### Ejecutar el backend (FastAPI)
@@ -41,9 +42,10 @@ Endpoints principales:
 
 ## Próximos pasos sugeridos
 
-1. Validar hipótesis clave con pruebas de usabilidad y pilotos en 2 ciudades.
-2. Implementar MVP con funciones núcleo gratuitas y telemetría de observabilidad.
-3. Activar gradualmente funcionalidades premium y experimentos de pricing adaptativo.
+1. Completar la [fase 1](docs/phase1_foundations.md) para pasar del demo a un backend con datos reales y apps móviles funcionales.
+2. Validar hipótesis clave con pruebas de usabilidad y pilotos en 2 ciudades.
+3. Implementar MVP con funciones núcleo gratuitas y telemetría de observabilidad.
+4. Activar gradualmente funcionalidades premium y experimentos de pricing adaptativo.
 
 ---
 
