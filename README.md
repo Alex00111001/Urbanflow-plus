@@ -16,7 +16,6 @@ UrbanFlow+ es una plataforma de movilidad urbana centrada en ofrecer rutas multi
 - [`docs/architecture.md`](docs/architecture.md): arquitectura técnica, flujos de datos e infraestructura.
 - [`docs/ux_ui.md`](docs/ux_ui.md): lineamientos de UX/UI, accesibilidad e internacionalización.
 - [`docs/ai_routing.md`](docs/ai_routing.md): diseño del motor híbrido de rutas e IA de optimización.
-- [`docs/monetization_and_growth.md`](docs/monetization_and_growth.md): estrategia de monetización, retención y referidos.
 - [`docs/delivery_plan.md`](docs/delivery_plan.md): plan de entrega con OKRs, backlog priorizado y responsables por fase.
 - [`backend/`](backend/): API FastAPI con buscador natural, rutas multimodales, llegadas en tiempo real simuladas y servicios premium.
 

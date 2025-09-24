@@ -2,7 +2,6 @@
 
 Este paquete contiene el backend de referencia de UrbanFlow+, construido con FastAPI. Incluye:
 
-- Motor de rutas multimodal con heurísticas y explicaciones.
 - Ingesta simplificada de feeds GTFS para poblar el grafo de transporte.
 - Intérprete de lenguaje natural para búsquedas conversacionales.
 - Simulación determinística de llegadas en tiempo real.

@@ -21,7 +21,6 @@ __all__ = [
     "reset_transit_graph",
 ]
 
-
 @dataclass(frozen=True)
 class Edge:
     origin: str
@@ -271,9 +270,10 @@ def plan_route(request: RouteRequest) -> RouteResponse:
             )
         )
 
+    graph = get_transit_graph()
     itineraries: List[Itinerary] = []
     for candidate in candidate_preferences:
-        edges = _dijkstra(request.origin.label, request.destination.label, candidate, _GRAPH)
+        edges = _dijkstra(request.origin.label, request.destination.label, candidate, graph)
         if not edges:
             continue
         explanation = None
@@ -294,7 +294,8 @@ def replan_trip(request: RouteRequest, disruption: str) -> Optional[Itinerary]:
         avoid_transfers=True,
         accessibility_required=request.preference.accessibility_required,
     )
-    edges = _dijkstra(request.origin.label, request.destination.label, fallback_pref, _GRAPH)
+    graph = get_transit_graph()
+    edges = _dijkstra(request.origin.label, request.destination.label, fallback_pref, graph)
     if not edges:
         return None
     explanation = f"Replanificación por evento: {disruption}"
